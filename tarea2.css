@@ -1,0 +1,23 @@
+form{
+    margin: 0 auto;
+    background-color: rgba(0, 119, 255, 0.336);
+    width: 50%;
+    border-radius: 11px;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 11px 11px 0 0;
+    padding: 5px;
+}
+
+.numero1{
+    background-color: aliceblue;
+    border-radius: 5px;
+    height: 15px;
+    margin-bottom: 2%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
