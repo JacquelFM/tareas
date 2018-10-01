@@ -1,23 +1,66 @@
-form{
+form {
     margin: 0 auto;
-    background-color: rgba(0, 119, 255, 0.336);
+    background-color: transparent;
     width: 50%;
-    border-radius: 11px;
+    border-radius: 3px;
     text-align: center;
+    padding: 10px;
 }
 
-h1{
+body {
+    background-image: url(imgs/fondo.png);
+    font-family: 'Permanent Marker', cursive;
+}
+
+h1 {
     text-align: center;
     text-transform: uppercase;
     border-radius: 11px 11px 0 0;
     padding: 5px;
+    color: #ffffff;
 }
 
-.numero1{
-    background-color: aliceblue;
+.numeros,
+.resultado {
+    background-color: #fff;
     border-radius: 5px;
-    height: 15px;
-    margin-bottom: 2%;
+    height: 35px;
+    width: 145%;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: bold;
 }
 
+button {
+    border-radius: 50%;
+    margin-bottom: 20%;
+    font-size: 120%;
+    width: 100%;
+    background-color: #3A45A5;
+    color: #fff;
+    border: 0.5px solid #000;
+}
+
+button:focus {
+    outline: none;
+}
+
+.datos,
+.datos1 {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.datos {
+    width: 33%;
+    margin-right: 20%;
+}
+
+.datos1 {
+    width: 7%;
+}
+
+label {
+    margin-left: 40%;
+    color: #fff;
+}
